@@ -5,5 +5,5 @@ prune docs
 prune infra
 prune examples
 
-include sdk/python/feast/*.py
+recursive-include sdk/python/feast/*.py
 graft sdk/python/feast/ui/build
